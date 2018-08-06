@@ -1,0 +1,15 @@
+#########################
+# Unreal Generated Files          #
+#########################
+Build/
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+_BuiltData.uasset
+.vs/BuildingEscape/v15/Browse.VC.db
+
+########################
+# VSGenerated Files              #
+########################
+*.ipch
