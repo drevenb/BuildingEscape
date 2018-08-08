@@ -15,3 +15,5 @@ _BuiltData.uasset
 # VSGenerated Files              #
 ########################
 *.ipch
+.vs/BuildingEscape/v15/Solution.VC.db-shm
+.vs/BuildingEscape/v15/Solution.VC.db-wal
