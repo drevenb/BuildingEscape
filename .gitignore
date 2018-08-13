@@ -4,7 +4,8 @@
 Build/
 Binaries/
 DerivedDataCache/
-Intermediate/
+Intermediate/*
+!Intermediate/ProjectFiles/
 Saved/
 _BuiltData.uasset
 .vs/BuildingEscape/v15/Browse.VC.db
