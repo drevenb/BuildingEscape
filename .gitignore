@@ -4,8 +4,7 @@
 Build/
 Binaries/
 DerivedDataCache/
-Intermediate/*
-!Intermediate/ProjectFiles/
+Intermediate/
 Saved/
 _BuiltData.uasset
 .vs/BuildingEscape/v15/Browse.VC.db
@@ -18,3 +17,4 @@ _BuiltData.uasset
 *.ipch
 .vs/BuildingEscape/v15/Solution.VC.db-shm
 .vs/BuildingEscape/v15/Solution.VC.db-wal
+.vs/BuildingEscape/v15/.suo
