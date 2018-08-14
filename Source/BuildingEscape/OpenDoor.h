@@ -6,7 +6,9 @@
 #include "Components/ActorComponent.h"
 #include "GameFramework/Actor.h"
 #include "Engine/TriggerVolume.h"
+#include "Engine/World.h"
 #include "OpenDoor.generated.h"
+
 
 
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
@@ -35,7 +37,6 @@ private:
 	UPROPERTY(EditAnywhere)
 		ATriggerVolume* PressurePlate;
 
-	UPROPERTY(EditAnywhere)
 		AActor* ActorThatOpens; //Remember pawn inherits from actor
 	
 };
