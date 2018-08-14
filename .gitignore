@@ -10,6 +10,7 @@ _BuiltData.uasset
 .vs/BuildingEscape/v15/Browse.VC.db
 *.uasset
 !BP_*.uasset
+!NewMap_BuiltData.uasset
 
 ########################
 # VSGenerated Files              #
