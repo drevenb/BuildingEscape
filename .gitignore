@@ -19,3 +19,5 @@ _BuiltData.uasset
 .vs/BuildingEscape/v15/Solution.VC.db-shm
 .vs/BuildingEscape/v15/Solution.VC.db-wal
 .vs/BuildingEscape/v15/.suo
+*.sln
+*.VC.opendb
