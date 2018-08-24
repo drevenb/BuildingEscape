@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
+#include "Components/PrimitiveComponent.h"
 #include "GameFramework/Actor.h"
 #include "Engine/TriggerVolume.h"
 #include "Engine/World.h"
@@ -36,14 +37,16 @@ private:
 	float OpenAngle = -90.f;
 
 	UPROPERTY(EditAnywhere)
-		ATriggerVolume* PressurePlate;
+		ATriggerVolume* PressurePlate = nullptr;
 
 	UPROPERTY(EditAnywhere)
 		float DoorCloseDelay = 1.f;
 
 	float LastDoorOpenTime;
 
-		AActor* ActorThatOpens; //Remember pawn inherits from actor
-		AActor* Owner;
+	AActor* Owner = nullptr; //the owning door
+
+	//returns total mass in kg
+	float GetTotalMassOfActorsOnPlate();
 	
 };
